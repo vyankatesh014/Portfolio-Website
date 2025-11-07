@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-website-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix Client run build",
+    "dev": "npm --prefix Client run dev",
+    "start": "npm --prefix Server run start",
+    "install:all": "npm --prefix Client install && npm --prefix Server install"
+  }
+}
