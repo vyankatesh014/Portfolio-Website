@@ -84,15 +84,15 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "krishnachavan.tech@gmail.com",
-      link: "mailto:krishnachavan.tech@gmail.com",
+      value: "vyankateshbairagi.dev@gmail.com",
+      link: "mailto:vyankateshbairagi.dev@gmail.com",
       description: "Best way to reach me",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "9284769125",
-      link: "tel:9284769125",
+      value: "9075097235",
+      link: "tel:9075097235",
       description: "Available 9 AM - 8 PM IST",
     },
     {
@@ -106,14 +106,14 @@ export const Contact = () => {
       icon: Linkedin,
       title: "LinkedIn",
   value: "Vyankatesh Bairagi",
-      link: "https://www.linkedin.com/in/krishna-chavan-882516249",
+      link: "https://www.linkedin.com/in/vyankatesh-bairagi-656164287/",
       description: "Professional network",
     },
     {
       icon: Github,
       title: "GitHub",
-  value: "Krishnachavan1930",
-      link: "https://github.com/Krishnachavan1930",
+  value: "Vyankatesh Bairagi",
+      link: "https://github.com/vyankatesh014",
       description: "View my code",
     },
   ]
