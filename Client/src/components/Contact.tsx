@@ -213,7 +213,7 @@ export const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        placeholder="krishna@example.com"
+                        placeholder="vyankatesh@example.com"
                         className="h-11 sm:h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 text-base transition-all duration-200"
                       />
                     </div>

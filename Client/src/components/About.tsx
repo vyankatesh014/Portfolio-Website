@@ -153,25 +153,25 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50"
+      className="pt-24 pb-20 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-20">
+        {/* Header Section */}
+        <div className="text-center mb-20 mt-4">
           <div className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
             ABOUT ME
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-snug md:leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
             Driven Computer Engineering Student
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mt-4">
             Passionate about full-stack web development, backend systems, and
             scalable applications. I love learning new technologies and
             delivering high-quality digital solutions.
           </p>
         </div>
 
-        {/* Stats */}
+        {/* Stats Section */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
           {stats.map((stat, index) => (
             <Card
@@ -191,7 +191,7 @@ export const About = () => {
           ))}
         </div>
 
-        {/* Layout */}
+        {/* Main Layout Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Bio Section */}
           <div className="space-y-8">
@@ -245,7 +245,7 @@ export const About = () => {
               </CardContent>
             </Card>
 
-            {/* Skills */}
+            {/* Skills Section */}
             <div className="grid sm:grid-cols-2 gap-6">
               {skills.map((skillCategory, index) => (
                 <Card
@@ -340,7 +340,7 @@ export const About = () => {
             )}
           </div>
 
-          {/* Main Timeline */}
+          {/* Main Timeline Section */}
           <div className="space-y-8">
             <h3 className="text-3xl font-bold mb-8 text-gray-900">
               Work Experience & Projects

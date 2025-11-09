@@ -14,48 +14,15 @@ const staticTestimonials = [
   {
     _id: "1",
     name: "Roshani Ghodekar",
-    company: "Farming Website Project",
+    company: "Job Portal",
     quote:
-      "Vyankatesh developed a complete farming website for me with an excellent user interface and smooth backend integration. The website helped farmers access scheme updates and agricultural information easily. His dedication, problem-solving skills, and technical understanding were outstanding throughout the project.",
+      "Vyankatesh developed a complete job portal for me with an excellent user interface and smooth backend integration. The website helped job seekers access job listings and application resources easily. His dedication, problem-solving skills, and technical understanding were outstanding throughout the project.",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=roshanghodekar",
   },
-  {
-    _id: "2",
-    name: "Sarah Johnson",
-    company: "Innovatech Solutions",
-    quote:
-      "Vyankatesh is a brilliant developer who brought our vision to life with precision and creativity. The final product exceeded our expectations, and the entire process was seamless. A true professional!",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?u=sarahjohnson",
-  },
-  {
-    _id: "3",
-    name: "Michael Chen",
-    company: "QuantumLeap AI",
-    quote:
-      "The level of technical expertise and dedication to our project was outstanding. Vyankatesh tackled complex challenges with ease and delivered a robust, scalable solution. I would hire him again in a heartbeat.",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?u=michaelchen",
-  },
-  {
-    _id: "4",
-    name: "Emily Rodriguez",
-    company: "Creative Minds Agency",
-    quote:
-      "Working with Vyankatesh was an absolute pleasure. He is not only a talented developer but also a great communicator. He kept us updated throughout the project and was always open to feedback.",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?u=emilyrodriguez",
-  },
-  {
-    _id: "5",
-    name: "David Lee",
-    company: "NextGen Gaming",
-    quote:
-      "The quality of the work delivered was exceptional. Vyankatesh has a keen eye for detail and a deep understanding of modern web technologies. Our new platform is fast, responsive, and user-friendly.",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?u=davidlee",
-  },
+
+  // You can add more static testimonials here if needed
+  
 ];
 
 export const Testimonials = () => {
