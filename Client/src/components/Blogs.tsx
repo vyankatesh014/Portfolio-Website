@@ -229,7 +229,7 @@ const Blogs: React.FC = () => {
             <Star className="w-4 h-4 text-yellow-500" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Featured Content</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 leading-normal overflow-visible">
             Creative Blogs
           </h2>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">

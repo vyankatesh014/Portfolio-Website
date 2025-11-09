@@ -207,7 +207,7 @@ export const About = () => {
                       Computer Engineering student
                     </span>{" "}
                     with a passion for{" "}
-                    <span className="font-semibold text-purple-600">
+                    <span className="font-semibold text-purple-600">  
                       full-stack development
                     </span>
                     , I specialize in building dynamic, responsive, and
